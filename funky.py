@@ -1,3 +1,6 @@
+""" This function creates a pyramid out of a text file with a word and its corresponding number.
+The text files in this repo are the ones used to illustrate how this function works."""
+
 def create_dictionary_from_text_file(file_path):
     with open(file_path, 'r') as file:
         my_dict = {}
